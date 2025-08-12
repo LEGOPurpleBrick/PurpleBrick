@@ -56,6 +56,7 @@ This is an early release and the program is still actively in development, there
 PurpleBrick will only support the current newest version of each game, however in addition to this it also supports:
 * QA versions of LEGO The Lord of the Rings, LEGO Marvel Super Heroes, LEGO Star Wars: The Force Awakens.
 * The oldest version of LEGO Star Wars: The Force Awakens (29 June 2016).
+
 Please note that while hooking PurpleBrick to older versions of other games will be successful, it will not give expected results.
 
 As the development of PurpleBrick progresses, more and more games will be better supported by it.
