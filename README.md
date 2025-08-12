@@ -12,7 +12,7 @@ PurpleBrick aims to be the must-have speedrun practice tool for the mainline TT 
 * Custom hotkey system to allow for faster execution of some features.
 
 This is an early release and the program is still actively in development, therefore not every feature is supported in every game yet, please refer to the Supported Games section of this description to avoid confusion.
-/n *This debug feature was removed after LEGO Pirates of the Caribbean, therefore it will only be available for a few games.
+*This debug feature was removed after LEGO Pirates of the Caribbean, therefore it will only be available for a few games.
 
 # Supported Games
 Fully supported games:
