@@ -48,6 +48,7 @@ This is an early release and the program is still actively in development, there
 * LEGO Indiana Jones: The Original Adventures*
 * LEGO Batman: The Videogame*
 * LEGO Indiana Jones 2: The Adventure Continues
+* LEGO Dimensions
 * LEGO Star Wars: The Skywalker Saga
 * Any DX9 variant of a game that has (DX11) next to it's name
 
@@ -57,9 +58,7 @@ PurpleBrick will only support the current newest version of each game, however i
 * QA versions of LEGO The Lord of the Rings, LEGO Marvel Super Heroes, LEGO Star Wars: The Force Awakens.
 * The oldest version of LEGO Star Wars: The Force Awakens (29 June 2016).
 
-Please note that while hooking PurpleBrick to older versions of other games will be successful, it will not give expected results.
-
-As the development of PurpleBrick progresses, more and more games will be better supported by it.
+As the development of PurpleBrick progresses, more and more games will be better supported by it. Even if a game is currently completely unsupported, that might change in the future.
 
 # Installation
 In order to install PurpleBrick, head to the [releases](https://github.com/Siedemnastek/PurpleBrick/releases) and download the installer from the latest release.
