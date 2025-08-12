@@ -53,12 +53,29 @@ This is an early release and the program is still actively in development, there
 
 *For these games, it's highly recommended to use [Brickbench](https://github.com/BrickBench/BrickBench) instead.
 
+PurpleBrick will only support the current newest version of each game, however in addition to this it also supports:
+* QA versions of LEGO The Lord of the Rings, LEGO Marvel Super Heroes, LEGO Star Wars: The Force Awakens.
+* The oldest version of LEGO Star Wars: The Force Awakens (29 June 2016).
+Please note that while hooking PurpleBrick to older versions of other games will be successful, it will not give expected results.
+
 As the development of PurpleBrick progresses, more and more games will be better supported by it.
 
 # Installation
-In order to install PurpleBrick, head over to the [releases](https://github.com/Siedemnastek/PurpleBrick/releases) and download the installer from the latest release.
+In order to install PurpleBrick, head to the [releases](https://github.com/Siedemnastek/PurpleBrick/releases) and download the installer from the latest release.
 Once it gets downloaded, open the installer and follow the instructions on screen to install the program.
 
 Upon finishing installation, a shortcut for PurpleBrick will be placed on Your Desktop, as well as the Programs Menu.
 
-Please note: PurpleBrick only works for 64 bit Windows Systems.
+PurpleBrick has a built-in auto-updater, when a new version is available, you will be notified upon opening the program.
+
+Please note: PurpleBrick only works for Windows Systems.
+
+# Troubleshooting
+.NET 8.0 is required to run PurpleBrick, it should install itself during the installation process of PurpleBrick, in case it doesn't, you can find it [here](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
+
+If PurpleBrick fails to hook into a supported game, or some features that should be operational are not, please ensure:
+* The name of the executable of the game is what it should be (example: doesn't have "unpacked" next to it's name if Steamless was used).
+* You are running an un-modded version of the game.
+* You are running the newest available version of the game.
+
+In the event of any program crashes, bugs or other glaring issues, please contact Siedemnastek on Discord.
