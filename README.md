@@ -1,5 +1,5 @@
 # PurpleBrick
-PurpleBrick aims to be the must-have speedrun practice tool for the mainline TT Games LEGO Games.
+PurpleBrick aims to be the must-have speedrun practice tool for the mainline TT Games made LEGO Games.
 
 <img width="1050" height="600" alt="image" src="https://github.com/user-attachments/assets/9c665f70-4cbc-4fdc-84b3-5b033d0946bf" />
 
