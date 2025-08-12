@@ -12,18 +12,19 @@ PurpleBrick aims to be the must-have speedrun practice tool for the mainline TT 
 * Custom hotkey system to allow for faster execution of some features.
 
 This is an early release and the program is still actively in development, therefore not every feature is supported in every game yet, please refer to the Supported Games section of this description to avoid confusion.
+
 *This debug feature was removed after LEGO Pirates of the Caribbean, therefore it will only be available for a few games.
 
 # Supported Games
-Fully supported games:
+**Fully supported games:**
 * LEGO Harry Potter: Years 1-4
 * LEGO Star Wars III: The Clone Wars
 * LEGO Pirates of the Caribbean The Video Game
 
-Games with no map loading:
+**Games with no map loading:**
 * LEGO Harry Potter: Years 5-7
 
-Games with minimal support (player coordinates, hotkeys, N0CUT5):
+**Games with minimal support (player coordinates, hotkeys, N0CUT5):**
 * LEGO Batman 2: DC Super Heroes
 * LEGO The Lord of the Rings
 * LEGO City Undercover
@@ -40,7 +41,7 @@ Games with minimal support (player coordinates, hotkeys, N0CUT5):
 * LEGO DC Super-Villains
 * The LEGO Movie 2 Videogame
 
-Unsupported games:
+**Unsupported games:**
 * LEGO Star Wars: The Video Game
 * LEGO Star Wars II: The Original Trilogy
 * LEGO Star Wars: The Complete Saga*
@@ -48,3 +49,5 @@ Unsupported games:
 * LEGO Batman: The Videogame*
 * LEGO Indiana Jones 2: The Adventure Continues
 * LEGO Star Wars: The Skywalker Saga
+
+*For these games, it's highly recommended to use [Brickbench](https://github.com/BrickBench/BrickBench) instead.
