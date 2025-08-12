@@ -1,7 +1,7 @@
 # PurpleBrick
 PurpleBrick aims to be the must-have speedrun practice tool for the mainline TT Games LEGO Games.
 
-<img width="1050" height="600" alt="image" src="https://github.com/user-attachments/assets/0f8c6f2d-ade5-4283-b9bd-50f20a0829f1" />
+<img width="1050" height="600" alt="image" src="https://github.com/user-attachments/assets/9c665f70-4cbc-4fdc-84b3-5b033d0946bf" />
 
 # Features
 * Viewing and changing player coordinates.
