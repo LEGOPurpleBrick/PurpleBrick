@@ -49,5 +49,8 @@ This is an early release and the program is still actively in development, there
 * LEGO Batman: The Videogame*
 * LEGO Indiana Jones 2: The Adventure Continues
 * LEGO Star Wars: The Skywalker Saga
+* Any DX9 variant of a game that has (DX11) next to it's name
 
 *For these games, it's highly recommended to use [Brickbench](https://github.com/BrickBench/BrickBench) instead.
+
+As the development of PurpleBrick progresses, more and more games will be more supported by it.
