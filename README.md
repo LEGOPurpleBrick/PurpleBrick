@@ -56,7 +56,7 @@ This is an early release and the program is still actively in development, there
 As the development of PurpleBrick progresses, more and more games will be better supported by it.
 
 # Installation
-In order to install PurpleBrick, head over to the [releases] and download the installer from the latest release.
+In order to install PurpleBrick, head over to the [releases](https://github.com/Siedemnastek/PurpleBrick/releases) and download the installer from the latest release.
 Once it gets downloaded, open the installer and follow the instructions on screen to install the program.
 
 Upon finishing installation, a shortcut for PurpleBrick will be placed on Your Desktop, as well as the Programs Menu.
