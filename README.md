@@ -1,2 +1,2 @@
 # PurpleBrick
-The must-have practice tool for LEGO Games Speedruns
+PurpleBrick aims to be the must-have practice tool for TT LEGO Games Speedruns
