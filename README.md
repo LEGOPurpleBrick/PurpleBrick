@@ -70,6 +70,16 @@ PurpleBrick has a built-in update checker, when a new version is available, you 
 
 Please note: PurpleBrick only works for Windows Systems.
 
+# Troubleshooting
+.NET 8.0 is required to run PurpleBrick, it should install itself during the installation process of PurpleBrick, in case it doesn't, you can find it [here](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
+
+If PurpleBrick fails to hook into a supported game, or some features that should be operational are not, please ensure:
+* The name of the executable of the game is what it should be (example: doesn't have "unpacked" next to it's name if Steamless was used).
+* You are running an un-modded version of the game.
+* You are running the newest available version of the game.
+
+In the event of any program crashes, bugs or other glaring issues, please contact Siedemnastek on Discord.
+
 # Feature Documentation
 This section is dedicated to explaining how each feature of PurpleBrick works and how to use it.
 
@@ -116,12 +126,3 @@ To help with practicing hitting doors, you can enable the **Track for P1/P2** ch
 
 <img width="376" height="147" alt="image" src="https://github.com/user-attachments/assets/3b12e335-d06a-4c8b-b98f-4ddee6d571e6" />
  
-# Troubleshooting
-.NET 8.0 is required to run PurpleBrick, it should install itself during the installation process of PurpleBrick, in case it doesn't, you can find it [here](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
-
-If PurpleBrick fails to hook into a supported game, or some features that should be operational are not, please ensure:
-* The name of the executable of the game is what it should be (example: doesn't have "unpacked" next to it's name if Steamless was used).
-* You are running an un-modded version of the game.
-* You are running the newest available version of the game.
-
-In the event of any program crashes, bugs or other glaring issues, please contact Siedemnastek on Discord.
