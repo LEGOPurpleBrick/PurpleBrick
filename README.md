@@ -21,7 +21,7 @@ This is an early release and the program is still actively in development, there
 * LEGO Star Wars III: The Clone Wars
 * LEGO Pirates of the Caribbean The Video Game
 
-**Games with almost full support (no map loading):**
+**Games with almost full support (player coordinates, hotkeys, N0CUT5, Door Finder):**
 * LEGO Harry Potter: Years 5-7
 
 **Games with minimal support (player coordinates, hotkeys, N0CUT5):**
@@ -61,7 +61,7 @@ PurpleBrick will only support the current newest version of each game, however i
 As the development of PurpleBrick progresses, more and more games will be better supported by it. Even if a game is currently completely unsupported, that might change in the future.
 
 # Installation
-In order to install PurpleBrick, head to the [releases](https://github.com/Siedemnastek/PurpleBrick/releases) and download the installer from the latest release.
+In order to install PurpleBrick, head to the [releases](https://github.com/LEGOPurpleBrick/PurpleBrick/releases) and download the installer from the latest release.
 Once it gets downloaded, open the installer and follow the instructions on screen to install the program.
 
 Upon finishing installation, a shortcut for PurpleBrick will be placed on Your Desktop, as well as the Programs Menu.
@@ -87,7 +87,7 @@ The first step upon launching PurpleBrick is always to press the **Hook into LEG
 Once this button is clicked, a **Stop hook** button will replace it, which when clicked will stop PurpleBrick from interacting with the game.
 
 The left panel has the following checkboxes:
-* **Enable hotkeys** - this enables PurpleBrick's custom hotkey functions, aach of the hotkey is described next to it's relevant function.
+* **Enable hotkeys** - this enables PurpleBrick's custom hotkey functions, each of the hotkey is described next to it's relevant function.
 * **N0CUT5** - this enables the effects of the N0CUT5 code without needing to put it in manually. The code makes cutscenes skippable from new game.
 * **Streaming Display** - this enables the debug feature of the same name, which will display when a map file is being dynamically loaded into the memory. This feature is mostly for fun, it does not serve a bigger purpose other than being able to find out in more detail how the streaming system works. The code from this debug feature was seemingly accidentally removed from games past LEGO Pirates of the Caribbean, meaning PurpleBrick also cannot enable this feature for games that came out after that.
               <img width="343" height="35" alt="Streaming Display Example" src="https://github.com/user-attachments/assets/54a5cee7-7c9c-4ef2-b15f-6d9c4e6ec2ac" />
