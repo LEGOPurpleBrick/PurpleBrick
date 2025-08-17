@@ -71,7 +71,7 @@ PurpleBrick has a built-in update checker, when a new version is available, you 
 Please note: PurpleBrick only works for Windows Systems.
 
 # Troubleshooting
-.NET 8.0 is required to run PurpleBrick, it should install itself during the installation process of PurpleBrick, in case it doesn't, you can find it [here](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
+.NET 8.0 is required to run PurpleBrick. If you don't have it, when you first attempt to open PurpleBrick, you should get prompted to install it, in the event this isn't the case, you can find it [here](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.19-windows-x86-installer?cid=getdotnetcore).
 
 If PurpleBrick fails to hook into a supported game, or some features that should be operational are not, please ensure:
 * The name of the executable of the game is what it should be (example: doesn't have "unpacked" next to it's name if Steamless was used).
