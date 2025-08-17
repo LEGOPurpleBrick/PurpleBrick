@@ -61,10 +61,14 @@ PurpleBrick will only support the current newest version of each game, however i
 As the development of PurpleBrick progresses, more and more games will be better supported by it. Even if a game is currently completely unsupported, that might change in the future.
 
 # Installation
-In order to install PurpleBrick, head to the [releases](https://github.com/LEGOPurpleBrick/PurpleBrick/releases) and download the installer from the latest release.
-Once it gets downloaded, open the installer and follow the instructions on screen to install the program.
+~~In order to install PurpleBrick, head to the [releases](https://github.com/LEGOPurpleBrick/PurpleBrick/releases) and download the installer from the latest release.~~
+~~Once it gets downloaded, open the installer and follow the instructions on screen to install the program.~~
 
-Upon finishing installation, a shortcut for PurpleBrick will be placed on Your Desktop, as well as the Programs Menu.
+~~Upon finishing installation, a shortcut for PurpleBrick will be placed on Your Desktop, as well as the Programs Menu.~~
+
+Due to current issues with Windows Defender falsely recognizing PurpleBrick Installer as a virus, each release of PurpleBrick will also have the option to download the program in a .zip.
+If you choose to download the .zip, once it gets downloaded extract the contents of it to a folder somewhere on your computer, then launch PurpleBrick.exe from there.
+If you download the program this way, you will need to repeat the same process with each new version.
 
 PurpleBrick has a built-in update checker, when a new version is available, you will be notified upon opening the program.
 
