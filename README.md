@@ -23,10 +23,10 @@ This is an early release and the program is still actively in development, there
 
 **Games with almost full support (player coordinates, hotkeys, N0CUT5, Door Finder):**
 * LEGO Harry Potter: Years 5-7
-
-**Games with minimal support (player coordinates, hotkeys, N0CUT5):**
 * LEGO Batman 2: DC Super Heroes
 * LEGO The Lord of the Rings
+
+**Games with minimal support (player coordinates, hotkeys, N0CUT5):**
 * LEGO City Undercover
 * LEGO Marvel Super Heroes
 * The LEGO Movie Videogame
