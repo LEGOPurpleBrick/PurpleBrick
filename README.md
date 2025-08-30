@@ -25,11 +25,11 @@ This is an early release and the program is still actively in development, there
 * LEGO Harry Potter: Years 5-7
 * LEGO Batman 2: DC Super Heroes
 * LEGO The Lord of the Rings
+* LEGO Marvel Super Heroes
+* The LEGO Movie Videogame
 
 **Games with minimal support (player coordinates, hotkeys, N0CUT5):**
 * LEGO City Undercover
-* LEGO Marvel Super Heroes
-* The LEGO Movie Videogame
 * LEGO The Hobbit
 * LEGO Batman 3: Beyond Gotham (DX11)
 * LEGO Jurassic World (DX11)
