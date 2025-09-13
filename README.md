@@ -1,7 +1,7 @@
 # PurpleBrick
 PurpleBrick aims to be the must-have speedrun practice tool for the mainline TT Games made LEGO Games.
 
-<img width="1050" height="600" alt="Image of the current version of PurpleBrick" src="https://github.com/user-attachments/assets/9c665f70-4cbc-4fdc-84b3-5b033d0946bf" />
+<img width="1050" height="600" alt="Image of the current version of PurpleBrick" src="https://github.com/user-attachments/assets/d5394bcc-8b13-4b1b-8b58-3c52418df2f7" />
 
 # Features
 * Viewing and changing player coordinates.
@@ -27,10 +27,10 @@ This is an early release and the program is still actively in development, there
 * LEGO The Lord of the Rings
 * LEGO Marvel Super Heroes
 * The LEGO Movie Videogame
+* LEGO The Hobbit
 
 **Games with minimal support (player coordinates, hotkeys, N0CUT5):**
 * LEGO City Undercover
-* LEGO The Hobbit
 * LEGO Batman 3: Beyond Gotham (DX11)
 * LEGO Jurassic World (DX11)
 * LEGO Marvel's Avengers (DX11)
@@ -61,14 +61,11 @@ PurpleBrick will only support the current newest version of each game, however i
 As the development of PurpleBrick progresses, more and more games will be better supported by it. Even if a game is currently completely unsupported, that might change in the future.
 
 # Installation
-In order to install PurpleBrick, head to the [releases](https://github.com/LEGOPurpleBrick/PurpleBrick/releases) and download the installer from the latest release.
-Once it gets downloaded, open the installer and follow the instructions on screen to install the program.
+In order to install PurpleBrick, head to the [releases](https://github.com/LEGOPurpleBrick/PurpleBrick/releases) and download the .msi installer or .zip archive from the latest release.
 
-Upon finishing installation, a shortcut for PurpleBrick will be placed on Your Desktop, as well as the Programs Menu.
+If you download the .msi: Open the installer and follow the instructions on screen to install the program. Upon finishing installation, a shortcut for PurpleBrick will be placed on Your Desktop, as well as the Programs Menu. By default, PurpleBrick will install itself in Program Files (x86)/LSRTools/PurpleBrick.
 
-****Due to current issues with Windows Defender falsely recognizing PurpleBrick Installer as a virus, each release of PurpleBrick will also have the option to download the program in a .zip.**
-If you choose to download the .zip, once it gets downloaded extract the contents of it to a folder somewhere on your computer, then launch PurpleBrick.exe from there.
-If you download the program this way, you will need to repeat the same process with each new version.**
+If you download the .zip: Extract everything from the archive to a single location. **It is recommended that with each new version you delete/replace all the files from the previous version, otherwise there are no guarantees everything will work as intended.**
 
 PurpleBrick has a built-in update checker, when a new version is available, you will be notified upon opening the program.
 
@@ -91,7 +88,7 @@ The first step upon launching PurpleBrick is always to press the **Hook into LEG
 Once this button is clicked, a **Stop hook** button will replace it, which when clicked will stop PurpleBrick from interacting with the game.
 
 The left panel has the following checkboxes:
-* **Enable hotkeys** - this enables PurpleBrick's custom hotkey functions, each of the hotkey is described next to it's relevant function. Hotkeys currently only work for Player 1.
+* **Enable hotkeys** - this enables PurpleBrick's custom hotkey functions, each of the hotkey is described next to it's relevant function. Hotkeys work for Player 1 by default, but can be enabled for Player 2.
 * **N0CUT5** - this enables the effects of the N0CUT5 code without needing to put it in manually. The code makes cutscenes skippable from new game.
 * **Streaming Display** - this enables the debug feature of the same name, which will display when a map file is being dynamically loaded into the memory. This feature is mostly for fun, it does not serve a bigger purpose other than being able to find out in more detail how the streaming system works. The code from this debug feature was seemingly accidentally removed from games past LEGO Pirates of the Caribbean, meaning PurpleBrick also cannot enable this feature for games that came out after that.
               <img width="343" height="35" alt="Streaming Display Example" src="https://github.com/user-attachments/assets/54a5cee7-7c9c-4ef2-b15f-6d9c4e6ec2ac" />
