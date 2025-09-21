@@ -28,10 +28,10 @@ This is an early release and the program is still actively in development, there
 * LEGO Marvel Super Heroes
 * The LEGO Movie Videogame
 * LEGO The Hobbit
+* LEGO Batman 3: Beyond Gotham (DX11)
 
 **Games with minimal support (player coordinates, hotkeys, N0CUT5):**
 * LEGO City Undercover
-* LEGO Batman 3: Beyond Gotham (DX11)
 * LEGO Jurassic World (DX11)
 * LEGO Marvel's Avengers (DX11)
 * LEGO Star Wars: The Force Awakens (DX11)
