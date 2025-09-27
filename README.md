@@ -118,7 +118,7 @@ After selecting a door from the list, you will see all the available information
 * More likely than not, one of the coordinates will not be 2 different values, instead it will show the same for both minimum and maximum, this means the door is placed on that axis.
 * Below the coordinates, there is a **Hit:** field, this will tell you what direction you need to go towards to hit the door - for example if it says Hit: Z Down, this means the door can only be hit when you are going in a direction that makes you Z coordinate decrease.
 * For some doors, below the **Hit:** field there will also be a note on the door, if there is a note saying the door is **Inactive** this means attempting to hit it will not result in anything, if a note says **Inactive until.../Active after**, this means a condition needs to be met for the door to be hittable, there is also some other notes, however those should be self-explanatory.
-* At the very bottom you will find a **Teleport to door** button, which when clicked will teleport you to the coordinates of the currently selected door.
+* At the very bottom you will find a **Teleport to door** button, which when clicked will teleport you to the coordinates of the currently selected door (only works for Player 1).
   
 In order to actually hit a door based on this information, all of your coordinates need to be in range of what the Door Finder displays for the door, and then you need to hit in the correct direction. Using the image below, assuming your X coordinate is between 16.68 and 17.18, your Y coordinate is between 2.15 and 2.65, you then need to make your Z coordinate close to 22.44, and then go in the Z Up direction to hit the door.
 
