@@ -34,12 +34,12 @@ This is an early release and the program is still actively in development, there
 * LEGO Star Wars: The Force Awakens (DX11)
 * The LEGO Ninjago Movie Video Game (DX11)
 * LEGO Marvel Super Heroes 2
-
-**Games with minimal support (player coordinates, hotkeys, N0CUT5):**
-* LEGO City Undercover
 * LEGO The Incredibles
 * LEGO DC Super-Villains
 * The LEGO Movie 2 Videogame
+
+**Games with minimal support (player coordinates, hotkeys, N0CUT5):**
+* LEGO City Undercover
 
 **Unsupported games:**
 * LEGO Star Wars: The Video Game
