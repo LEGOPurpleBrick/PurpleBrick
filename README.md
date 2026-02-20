@@ -1,7 +1,8 @@
 # PurpleBrick
 PurpleBrick aims to be the must-have speedrun practice tool for the mainline TT Games made LEGO Games.
 
-<img width="1050" height="600" alt="Image of the current version of PurpleBrick" src="https://github.com/user-attachments/assets/d5394bcc-8b13-4b1b-8b58-3c52418df2f7" />
+<img width="1050" height="600" alt="Image of the current version of PurpleBrick" src="https://github.com/user-attachments/assets/0598a150-b5db-4c63-9b3b-833144ed20a1" />
+
 
 # Features
 * Viewing and changing player coordinates.
@@ -25,6 +26,7 @@ This is an early release and the program is still actively in development, there
 * LEGO Harry Potter: Years 5-7
 * LEGO Batman 2: DC Super Heroes
 * LEGO The Lord of the Rings
+* LEGO City Undercover
 * LEGO Marvel Super Heroes
 * The LEGO Movie Videogame
 * LEGO The Hobbit
@@ -37,9 +39,6 @@ This is an early release and the program is still actively in development, there
 * LEGO The Incredibles
 * LEGO DC Super-Villains
 * The LEGO Movie 2 Videogame
-
-**Games with minimal support (player coordinates, hotkeys, N0CUT5):**
-* LEGO City Undercover
 
 **Unsupported games:**
 * LEGO Star Wars: The Video Game
@@ -97,7 +96,8 @@ In addition to this, the left panel has a button **Customize hotkeys**, clicking
 
 **Player 1 and Player 2 panels:**
 
-* Will display your player coordinates, depending on what players you currently have dropped in. 
+* Will display your player coordinates, depending on what players you currently have dropped in.
+* Below each player coordinate (unless disabled) you will see your player velocity, which shows how fast (units per second) your character is moving in regards to the X/Y/Z axes.
 * Each player coordinate has a field next to it accompanied by a **Change** button, typing a number next to a coordinate, then pressing it's respective **Change** button will change that coordinate to whatever was inputted in the field. The same effect as pressing the **Change** button can also be achieved by pressing your Teleport Player hotkey (T by default), however only if none of the coordinate fields are selected.
 * In addition to changing your coordinates by typing values, you can also change each of them by +0.1 and -0.1 by using the custom hotkeys (1, 2, 3, 4, 5, 6 by default). This quick coordinate changing feature can very easily be used to clip through walls or speed up your movement. There is 2 more hotkeys that also affect player coordinates - Increase Y by 4 (9 by default), which can be used to quickly teleport very high into the air; and Lift Player (L by default), which is similiar to what Increase Y by 0.1 does, however Lift Player also resets your velocity, meaning it can be used to stay in the air forever.
 
