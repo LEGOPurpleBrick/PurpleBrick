@@ -69,7 +69,7 @@ If you download the .zip: Extract everything from the archive to a single locati
 
 PurpleBrick has a built-in update checker, when a new version is available, you will be notified upon opening the program.
 
-[.NET Desktop Runtime 8.0 x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.19-windows-x86-installer?cid=getdotnetcore) and [.NET Desktop Runtime 8.0 x86](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.28-windows-x86-installer) **are required for all PurpleBrick features to work properly**, please install both before using the program.
+[.NET Desktop Runtime 8.0 x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.28-windows-x64-installer) and [.NET Desktop Runtime 8.0 x86](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.28-windows-x86-installer) **are required for all PurpleBrick features to work properly**, please install both before using the program.
 
 Please note: PurpleBrick only works for Windows Systems.
 
