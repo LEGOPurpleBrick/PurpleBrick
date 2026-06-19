@@ -1,7 +1,7 @@
 # PurpleBrick
 PurpleBrick aims to be the must-have speedrun practice tool for the mainline TT Games made LEGO Games.
 
-<img width="1050" height="600" alt="Image of the current version of PurpleBrick" src="https://github.com/user-attachments/assets/0598a150-b5db-4c63-9b3b-833144ed20a1" />
+<img width="1050" height="600" alt="Image of the current version of PurpleBrick" src="https://github.com/user-attachments/assets/b3848915-a41b-43e2-aec0-30d17e80cecd" />
 
 
 # Features
@@ -21,8 +21,6 @@ This is an early release and the program is still actively in development, there
 * LEGO Harry Potter: Years 1-4
 * LEGO Star Wars III: The Clone Wars
 * LEGO Pirates of the Caribbean The Video Game
-
-**Games with almost full support (player coordinates, hotkeys, N0CUT5, Door Finder):**
 * LEGO Harry Potter: Years 5-7
 * LEGO Batman 2: DC Super Heroes
 * LEGO The Lord of the Rings
@@ -38,6 +36,8 @@ This is an early release and the program is still actively in development, there
 * LEGO Marvel Super Heroes 2
 * LEGO The Incredibles
 * LEGO DC Super-Villains
+
+**Games with almost full support (player coordinates, hotkeys, N0CUT5, Door Finder):**
 * The LEGO Movie 2 Videogame
 
 **Unsupported games:**
@@ -49,6 +49,7 @@ This is an early release and the program is still actively in development, there
 * LEGO Indiana Jones 2: The Adventure Continues
 * LEGO Dimensions
 * LEGO Star Wars: The Skywalker Saga
+* LEGO Batman: Legacy of the Dark Knight
 * Any DX9 variant of a game that has (DX11) next to it's name
 
 *For these games, it's highly recommended to use [Brickbench](https://github.com/BrickBench/BrickBench) instead.
@@ -68,13 +69,14 @@ If you download the .zip: Extract everything from the archive to a single locati
 
 PurpleBrick has a built-in update checker, when a new version is available, you will be notified upon opening the program.
 
+[.NET Desktop Runtime 8.0 x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.19-windows-x86-installer?cid=getdotnetcore) and [.NET Desktop Runtime 8.0 x86](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.28-windows-x86-installer) **are required for all PurpleBrick features to work properly**, please install both before using the program.
+
 Please note: PurpleBrick only works for Windows Systems.
 
 # Troubleshooting
-.NET 8.0 is required to run PurpleBrick. If you don't have it, when you first attempt to open PurpleBrick, you should get prompted to install it, in the event this isn't the case, you can find it [here](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.19-windows-x86-installer?cid=getdotnetcore).
-
 If PurpleBrick fails to hook into a supported game, or some features that should be operational are not, please ensure:
 * The name of the executable of the game is what it should be (example: doesn't have "unpacked" next to it's name if Steamless was used).
+* You are running a Steam or GOG release of the game, as Epic Games versions are known to be slightly different.
 * You are running an un-modded version of the game.
 * You are running the newest available version of the game.
 
@@ -107,7 +109,16 @@ Note: In LEGO games, the Y coordinate is the height, while X/Z are forwards/back
 
 This panel currently only has map loading. In order to use it (for games that currently support it), all you need to do is select a map you want to load from the dropdown list, then click the **Load Map** button or press your Load Map hotkey (F12 by default). You can also find a checkbox **Reset level on map load** below, when this is disabled, you will be able to seemlessy load between the maps in the **same level** and keep all of your progress in that level (studs, minikits), when the checkbox is enabled, the level progress will always reset when a map is loaded. 
 
-Note: If the **Reset level on map load** checkbox is disabled, and you attempt to load into a map you are currently in, PurpleBrick will act as if that checkbox is enabled. This is not a bug and works this way to avoid a certain game crash that would otherwise happen, the cause of why this causes the game to crash is currently unknown, and a workaround hasn't been found. For the same reason, this checkbox is always enabled and cannot be disabled in LEGO Harry Potter: Years 1-4, as the problem is more severe in that game.
+Note: If the **Reset level on map load** checkbox is disabled, and you attempt to load into a map you are currently in, PurpleBrick will act as if that checkbox is enabled. This is not a bug and works this way to avoid a certain game crash that would otherwise happen, the cause of why this causes the game to crash is currently unknown, and a workaround hasn't been found. This checkbox is always enabled and cannot be disabled in games past LEGO Harry Potter: Years 5-7.
+
+Oddities with map loading in newer games:
+- From LEGO Harry Potter: Years 5-7 onwards, it is impossible to load a map while in a loading screen (this includes status screens), PurpleBrick will automatically ignore map loading requests when the game is loading, as otherwise it would in 90% of cases lead to the game hardlocking.
+- In LEGO City Undercover, The LEGO Movie Videogame and The LEGO NINJAGO Movie Video Game, loading a map during a movie cutscene is impossible, the map will instead load after the cutscene is finished playing (potentially stacking movie cutscenes).
+- In LEGO Star Wars: The Force Awakens, loading a map will activate Fast Loading Glitch for the session; however, loading a few maps seems to get rid of the hardlocking property of the glitch (it also randomly seems to go away). Loading crawls may also appear when they shouldn't.
+- In LEGO The Hobbit and LEGO Batman 3: Beyond Gotham, instead of a fade out when loading a map, an insta black screen might sometimes occur (and will always occur if you load a map during a fadeout), this will put the game into a state where it's confused as to which room you are in, and will stop properly resetting every flag, this can be fixed by loading into the map where the black screen occured. This is way more common with v-sync off.
+- Loading the same map as the current level in LEGO Harry Potter: Years 5-7 in some instances might not completely reset every object, all room events should still work properly regardless.
+- In LEGO The Incredibles, some cutscenes will not reset when loaded into multiple times in a row. Additionally, loading 02_B_Vigilantes while being in that map will automatically trigger the outro cutscene, this bug seems to be related to the scripting of this particular room.
+- Loading maps may occassionally result in game crashes or hardlocks.
 
 **Door Finder**
 
