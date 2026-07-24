@@ -18,6 +18,7 @@ This is an early release and the program is still actively in development, there
 
 # Supported Games
 **Fully supported games:**
+* LEGO Indiana Jones 2: The Adventure Continues
 * LEGO Harry Potter: Years 1-4
 * LEGO Star Wars III: The Clone Wars
 * LEGO Pirates of the Caribbean The Video Game
@@ -46,7 +47,6 @@ This is an early release and the program is still actively in development, there
 * LEGO Star Wars: The Complete Saga*
 * LEGO Indiana Jones: The Original Adventures*
 * LEGO Batman: The Videogame*
-* LEGO Indiana Jones 2: The Adventure Continues
 * LEGO Dimensions
 * LEGO Star Wars: The Skywalker Saga
 * LEGO Batman: Legacy of the Dark Knight
@@ -112,6 +112,9 @@ This panel currently only has map loading. In order to use it (for games that cu
 Note: If the **Reset level on map load** checkbox is disabled, and you attempt to load into a map you are currently in, PurpleBrick will act as if that checkbox is enabled. This is not a bug and works this way to avoid a certain game crash that would otherwise happen, the cause of why this causes the game to crash is currently unknown, and a workaround hasn't been found. This checkbox is always enabled and cannot be disabled in games past LEGO Harry Potter: Years 5-7.
 
 Oddities with map loading in newer games:
+- In LEGO Indiana Jones 2: The Adventure Continues, if you enter a level from the Warehouse, call in player 2, then load any of the designated cutscene maps (intro/outro in the name) and load a different map afterwards, you won't be able to call in player 2 until you restart the game or quit to the titles.
+- In LEGO Indiana Jones 2: The Adventure Continues, if you enter a level from the Warehouse, then load any of the Hub maps, the game will crash.
+- In LEGO Indiana Jones 2: The Adventure Continues, if you enter a level from the Warehouse, loading most Builder maps will not work properly.
 - From LEGO Harry Potter: Years 5-7 onwards, it is impossible to load a map while in a loading screen (this includes status screens), PurpleBrick will automatically ignore map loading requests when the game is loading, as otherwise it would in 90% of cases lead to the game hardlocking.
 - In LEGO City Undercover, The LEGO Movie Videogame and The LEGO NINJAGO Movie Video Game, loading a map during a movie cutscene is impossible, the map will instead load after the cutscene is finished playing (potentially stacking movie cutscenes).
 - In LEGO Star Wars: The Force Awakens, loading a map will activate Fast Loading Glitch for the session; however, loading a few maps seems to get rid of the hardlocking property of the glitch (it also randomly seems to go away). Loading crawls may also appear when they shouldn't.
